@@ -33,11 +33,11 @@ Things you may want to cover:
 * _creates migration_
 * _creates model_
 
-## $`rails db:create`
-* _create the DB_
+## Create the DB
+* _`rails db:create`_
 
-## $`rails db:migrate`
-* _run all the migrations for the DB_
+## Run the DB migrations
+* _`rails db:migrate`_
 
 ## $`rails console`  / $`rails c`
 * _loads up your current environnement in the console_
