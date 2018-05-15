@@ -39,6 +39,10 @@ Things you may want to cover:
 ## Run the DB migrations
 * _`rails db:migrate`_
 
+## Seed the DB
+* _edit db/seeds.rb_
+* `rails db:seed`
+
 ## $`rails console`  / $`rails c`
 * _loads up your current environnement in the console_
 * allows you to interact with the db with AR
@@ -52,7 +56,7 @@ Things you may want to cover:
 
 ### 7 default routes :
 
-`  # CREATE
+  # CREATE
 
       # CREATE - Get a form
       get 'restaurants/new', to: 'restaurants#new'
@@ -84,8 +88,10 @@ Things you may want to cover:
 ### NO need to write the out, just use
 
 `resources :restaurants, only: [:show, :index]` # gives only show and index ressource
+
 `resources :restaurants, except: [:show, :index]` # gives all but show and index ressources
-`resources :restaurants` #writting this line is the samething as writting lines 12 to 39 !!
+
+`resources :restaurants` #writting this line will generate all 7 default routes
 
 
 
