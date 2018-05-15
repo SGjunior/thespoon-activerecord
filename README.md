@@ -25,7 +25,7 @@ Things you may want to cover:
 
 
 ## Create the controller
-* rails g controller {name} {method1} {method2}
+* `rails g controller {name} {method1} {method2}`
 *
 
 ## Create the model
@@ -36,9 +36,15 @@ Things you may want to cover:
 ## $`rails db:create`
 * _create the DB_
 
-## $rails db:migrate
+## $`rails db:migrate`
 * _run all the migrations for the DB_
 
-## $rails console  / $rails c
+## $`rails console`  / $`rails c`
 * _loads up your current environnement in the console_
 * allows you to interact with the db with AR
+
+## $ `rails g migration AddRatingToRestaurant rating:Integer`
+* _creates a new migration to the DB_
+* _add the rating column to the restaurant model_
+* _run `rails db:migrate` after you create the migration for it to take effect_
+
