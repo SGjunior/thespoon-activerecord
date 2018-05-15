@@ -29,11 +29,11 @@ Things you may want to cover:
 *
 
 ## Create the model
-* rails g model restaurant name:string address:string
+* `rails g model restaurant name:string address:string`
 * _creates migration_
 * _creates model_
 
-## $rails db:create
+## $`rails db:create`
 * _create the DB_
 
 ## $rails db:migrate
