@@ -85,7 +85,7 @@ Things you may want to cover:
       # DESTROY - a given restaurant
         delete 'restaurants/:id', to: 'restaurants#destroy'`
 
-### NO need to write the out, just use
+### NO need to write them out, just use
 
 `resources :restaurants, only: [:show, :index]` # gives only show and index ressource
 
